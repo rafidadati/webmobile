@@ -9,3 +9,11 @@ article p{
 footer p{
 	background-color : red;
 }
+
+form{
+	text-align: center;
+}
+
+input{
+	width: 35%;
+}
