@@ -1,0 +1,19 @@
+header p{
+	background-color : blue;
+}
+
+article p{
+	background-color : white;
+}
+
+footer p{
+	background-color : red;
+}
+
+form{
+	text-align: left;
+}
+
+input{
+	width: 35%;
+}
