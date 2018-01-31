@@ -1,0 +1,7 @@
+CACHE MANIFEST
+# Version 1 24/01/2018
+
+/index.html
+/img/logo.ico
+/img/calais.jpg
+/css/style.css

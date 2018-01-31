@@ -1,27 +1,33 @@
 <!doctype html>
-<html lang="fr" manifest="manif.appcache">
+<html lang="fr" manifest="manif.mf">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=device-width">
 <title>M4105C : Un super module</title>
-<link rel="stylesheet"href="css/style.css">
-<link rel="shortcut icon" href="img/logo.ico" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/logo.ico">
 </head>
 <body>
 	<header>
 		<p>Bonjour</p>
 	</header>
-	<article>
+	<article id="art1">
 		<p>Ecoute ça va plutot bien et toi ?</p>
 	</article>
-	<article>
+	<article id="art2">
 		<form>
-			<input type="text" name="nom" placeholder="Entrez votre nom" autofocus/>
-			<input type="date" name="datenai" placeholder="Entrez votre date de naissance"/>
-			<input type="number" name="age" placeholder="Entrez votre age"/>
-			<input type="url" name="fb" placeholder="Saisissez l'url de votre profil Facebook"/>
-			<input type="email" name="mail" placeholder="Saisissez votre adresse mail"/>
-			<input type="tel" name="tel" placeholder="Entrez votre n° de telephone"/>
+			<label for="nom">Entrez votre nom : </label>
+			<input type="text" id="nom" placeholder="Dupont" autofocus/><br />
+			<label for="datenai">Entrez votre date de naissance : </label>
+			<input type="date" id="datenai" placeholder="JJ/MM/AAAA"/><br />
+			<label for="age">Entrez votre age : </label>
+			<input type="number" id="age" placeholder="21"/><br />
+			<label for="fb">Saisissez l'url de votre profil Facebook : </label>
+			<input type="url" id="fb" placeholder="facebook.com/profile/Dupont21/"/><br />
+			<label for="mail">Saisissez votre adresse mail : </label>
+			<input type="email" id="mail" placeholder="dupont21@gmail.com"/><br />
+			<label for="tel">Entrez votre n° de téléphone : </label>
+			<input type="tel" id="tel" placeholder="XX XX XX XX XX"/><br />
 			<input type="submit" value="envoyer"/>
 		</form>
 		<p>Quoi de neuf ?</p>
