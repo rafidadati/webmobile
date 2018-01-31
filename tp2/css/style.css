@@ -1,6 +1,6 @@
 header p{
-	background-color : blue;
-}
+		background-color : blue;
+	}
 
 article p{
 	background-color : white;
@@ -10,10 +10,45 @@ footer p{
 	background-color : red;
 }
 
-form{
-	text-align: left;
+@media (min-width: 980px){
+
+	form{
+		text-align: left;
+	}
+
+	input{
+		width: 35%;
+	}
 }
 
-input{
-	width: 35%;
+@media (min-width:768px)and(max-width:979px){
+
+	form{
+		text-align: center;
+	}
+
+	input{
+		width: 35%;
+	}
+
+	img{
+		max-width: 100%;
+	}
+
+}
+
+@media (max-width: 767px){
+
+	form{
+		text-align: left;
+	}
+
+	input{
+		width: 35%;
+	}
+
+	img{
+		max-width: 100%;
+	}
+
 }
