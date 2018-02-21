@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" manifest="manif.mf">
+<html lang="fr" manifest="manifest.mf">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=device-width">
@@ -9,16 +9,21 @@
 </head>
 <body>
 	<header>
-		<div id="logo">
-			<img alt="logo iut" src="img/logoIUT.jpg">
+		<div id="nav">
+			<img alt="logo" src="img/logo.jpg">
+			<a class="active" href="/index.html">Accueil</a>
+			<a href="/page1.html">Page 1</a>
+			<a href="/contact.html">Contact</a>
+			<input type="text" placeholder="recherche">
 		</div>
-		<p>Bonjour</p>
 	</header>
 	<article id="art1">
-		<h1>M4105C : un module bof bof quand même</h1>
+		<div id="bandeau">
+			<img alt="bandeau" src="img/emule.jpg">
+		</div>
 	</article>
-	<article id="art2">
-		<form>
+	<article>
+		<!--<form>
 			<label for="nom">Entrez votre nom : </label><br />
 			<input type="text" id="nom" placeholder="Dupont" autofocus/><br />
 			<label for="datenai">Entrez votre date de naissance : </label><br />
@@ -32,15 +37,10 @@
 			<label for="tel">Entrez votre n° de téléphone : </label><br />
 			<input type="tel" id="tel" placeholder="XX XX XX XX XX"/><br />
 			<p><input type="submit" value="envoyer"/></p>
-		</form>
-		<p>Quoi de neuf ?</p>
+		</form> -->
 	</article>
 	<footer>
-		<p>Allez salut mon pote</p>
-		<section>
-			<img alt="mairie de calais" src="img/calais.jpg"/>
-		</section>
+		<p>Raphaël CHARLES - TPA</p>
 	</footer>
-<!-- Le reste du contenu -->
 </body>
 </html>
